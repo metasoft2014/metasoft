@@ -454,6 +454,7 @@ footer.sticky-footer {
     letter-spacing: 1px;
     content: "Favorites";
 }
+<<<<<<< HEAD
 .material-switch > input[type="checkbox"] {
     display: none;   
 }
@@ -498,3 +499,5 @@ footer.sticky-footer {
     background: inherit;
     left: 20px;
 }
+=======
+>>>>>>> branch 'master' of https://github.com/metasoft2014/metasoft.git
