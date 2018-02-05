@@ -66,14 +66,7 @@
   </nav>
   <div class="content-wrapper">
     <div class="container-fluid">
-      <!-- Breadcrumbs-->
-      <ol class="breadcrumb">
-        <li class="breadcrumb-item">
-          <a href="index.html">홈 화면</a>
-        </li>
-      </ol>
-    
-            
+        
     <div class="row">
         <div class="col-md-2">
             <div class="">
@@ -90,7 +83,7 @@
     <footer class="sticky-footer">
       <div class="container">
         <div class="text-center">
-          <small>Copyright © Your Website 2017</small>
+          <small>R&D 학생연구원</small>
         </div>
       </div>
     </footer>

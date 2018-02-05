@@ -68,15 +68,13 @@
     <div class="container-fluid">
       <!-- Breadcrumbs-->
       <ol class="breadcrumb">
-        <li class="breadcrumb-item">
-          <a href="#">분석데이터 차트</a>
+        <li class="breadcrumb-item">분석데이터 차트
         </li>
-        <li class="breadcrumb-item active">Charts</li>
       </ol>
       <!-- Area Chart Example-->
       <div class="card mb-3">
         <div class="card-header">
-          <i class="fa fa-area-chart"></i> Area Chart Example</div>
+          <i class="fa fa-area-chart"></i> 연도별 키워드 빈도 수</div>
         <div class="card-body">
           <canvas id="myAreaChart" width="100%" height="30"></canvas>
         </div>
@@ -87,7 +85,7 @@
           <!-- Example Bar Chart Card-->
           <div class="card mb-3">
             <div class="card-header">
-              <i class="fa fa-bar-chart"></i> Bar Chart Example</div>
+              <i class="fa fa-bar-chart"></i> 채널별 빈도 수</div>
             <div class="card-body">
               <canvas id="myBarChart" width="100" height="50"></canvas>
             </div>
@@ -98,7 +96,7 @@
           <!-- Example Pie Chart Card-->
           <div class="card mb-3">
             <div class="card-header">
-              <i class="fa fa-pie-chart"></i> Pie Chart Example</div>
+              <i class="fa fa-pie-chart"></i> 채널별 빈도 수</div>
             <div class="card-body">
               <canvas id="myPieChart" width="100%" height="100"></canvas>
             </div>
@@ -112,7 +110,7 @@
     <footer class="sticky-footer">
       <div class="container">
         <div class="text-center">
-          <small>Copyright © Your Website 2017</small>
+          <small>R&D 학생연구원</small>
         </div>
       </div>
     </footer>
@@ -120,24 +118,7 @@
     <a class="scroll-to-top rounded" href="#page-top">
       <i class="fa fa-angle-up"></i>
     </a>
-    <!-- Logout Modal-->
-    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
-            <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">×</span>
-            </button>
-          </div>
-          <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
-          <div class="modal-footer">
-            <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-            <a class="btn btn-primary" href="login.html">Logout</a>
-          </div>
-        </div>
-      </div>
-    </div>
+
     <!-- Bootstrap core JavaScript-->
     <script src="./Resouces/vendor/jquery/jquery.min.js"></script>
     <script src="./Resouces/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -149,6 +130,7 @@
     <script src="./Resouces/js/sb-admin.min.js"></script>
     <!-- Custom scripts for this page-->
     <script src="./Resouces/js/sb-admin-charts.min.js"></script>
+    <script src="./Resouces/js/sb-admin-charts.js"></script>
   </div>
 </body>
 

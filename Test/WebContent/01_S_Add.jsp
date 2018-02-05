@@ -68,10 +68,10 @@
     <div class="container-fluid">
       <!-- Breadcrumbs-->
       <ol class="breadcrumb">
-        <li class="breadcrumb-item">
-          <a href="index.html">스케줄러</a>
+        <li class="breadcrumb-item active">
+        스케줄러 관리
         </li>
-        <li class="breadcrumb-item active">스케줄러 추가</li>
+        <li class="breadcrumb-item">스케줄러 추가</li>
       </ol>
     
               <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.0/jquery-ui.min.js"></script> 
@@ -217,7 +217,7 @@
     <footer class="sticky-footer">
       <div class="container">
         <div class="text-center">
-          <small>메타소프트 2018</small>
+          <small>R&D 학생연구원</small>
         </div>
       </div>
     </footer>
