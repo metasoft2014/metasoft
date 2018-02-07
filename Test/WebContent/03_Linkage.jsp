@@ -77,6 +77,37 @@
       
       <!-- 내용 -->
       
+      <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+								<tr>
+									<td> <select name="interest">
+									<%
+										for (int i = 1; i <= 24; i++) {
+									%>
+									<option value="<%=i%>">스케줄러 <%=i%></option>
+									<%
+										}
+									%>
+
+							</select></td>
+									<td> <input type="radio"
+								name="optionsRadios1" /> 주제</td>
+									<td> <input type="radio"
+								name="optionsRadios2" /> 의미</td>
+									<td>
+				<button class="btn btn-info">확인</button>
+			</td>
+								</tr>
+								<tr>
+								<td colspan=3> </td>
+																		<td ><button class="btn btn-info">추가 <button class="btn btn-info">삭제 <button class="btn btn-info">설정?</td>
+									
+								</tr>
+</table>
+      
+      
+      
+      
+      
       
       
       

@@ -25,7 +25,6 @@
 h1 {
 	font-size: 20px;
 }
-
 </style>
 </head>
 
@@ -120,7 +119,8 @@ h1 {
 					<div
 						class="col-xs-12 col-sm-6 col-md-10 col-sm-offset-3 col-md-offset-4">
 						<div class="panel panel-default">
-							<table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+							<table class="table table-bordered" id="dataTable" width="100%"
+								cellspacing="0">
 								<tr>
 									<th>스케줄러 이름</th>
 									<th>스케줄러 설명</th>
@@ -129,11 +129,12 @@ h1 {
 								<tr>
 									<td><input id="name" type="textbox" /></td>
 									<td><input id="name" type="textbox" /></td>
-									<td colspan=3><input id="term1" type="textbox" /> ~  <input id="term2" type="textbox" /></td>
-	
+									<td colspan=3><input id="term1" type="textbox" /> ~ <input
+										id="term2" type="textbox" /></td>
+
 								</tr>
 								<tr>
-									<th colspan=5 >채널선택</th>
+									<th colspan=5>채널선택</th>
 								</tr>
 								<tr>
 									<td>페이스북
@@ -145,39 +146,39 @@ h1 {
 									</td>
 									<td>트위터
 										<div class="material-switch pull-right">
-										<input id="someSwitchOptionPrimary" name="someSwitchOption001"
-											type="checkbox" /> <label for="someSwitchOptionPrimary"
-											class="label-primary"></label>
-									</div>
+											<input id="someSwitchOptionPrimary"
+												name="someSwitchOption001" type="checkbox" /> <label
+												for="someSwitchOptionPrimary" class="label-primary"></label>
+										</div>
 									</td>
 									<td>구글뉴스
 										<div class="material-switch pull-right">
-										<input id="someSwitchOptionSuccess" name="someSwitchOption001"
-											type="checkbox" /> <label for="someSwitchOptionSuccess"
-											class="label-success"></label>
-									</div>
+											<input id="someSwitchOptionSuccess"
+												name="someSwitchOption001" type="checkbox" /> <label
+												for="someSwitchOptionSuccess" class="label-success"></label>
+										</div>
 									</td>
-									
+
 									<td colspan=2>다음
-									<div class="material-switch pull-right">
-										<input id="someSwitchOptionInfo" name="someSwitchOption001"
-											type="checkbox" /> <label for="someSwitchOptionInfo"
-											class="label-info"></label>
-									</div>
+										<div class="material-switch pull-right">
+											<input id="someSwitchOptionInfo" name="someSwitchOption001"
+												type="checkbox" /> <label for="someSwitchOptionInfo"
+												class="label-info"></label>
+										</div>
 									</td>
 								</tr>
 
 								<tr>
 									<td>인스타그램
 										<div class="material-switch pull-right">
-										<input id="someSwitchOptionWarning" name="someSwitchOption001"
-											type="checkbox" /> <label for="someSwitchOptionWarning"
-											class="label-warning"></label>
-									</div>
+											<input id="someSwitchOptionWarning"
+												name="someSwitchOption001" type="checkbox" /> <label
+												for="someSwitchOptionWarning" class="label-warning"></label>
+										</div>
 									</td>
-									<td> </td>
-									<td> </td>
-									<td colspan=2> </td>
+									<td></td>
+									<td></td>
+									<td colspan=2></td>
 								</tr>
 								<tr>
 									<th>스케줄러 반복 설정</th>
@@ -185,60 +186,56 @@ h1 {
 									<th colspan=3>스케줄러 실행 기간</th>
 								</tr>
 								<tr>
-									<td>주기 <input type="radio"
-								name="optionsRadios1" /> 기간 <input type="radio"
-								name="optionsRadios2" />
+									<td>주기 <input type="radio" name="optionsRadios1" /> 기간 <input
+										type="radio" name="optionsRadios2" />
 									</td>
 									<td><select name="interest">
-									<%
-										for (int i = 1; i <= 30; i++) {
-									%>
-									<option value="<%=i%>"><%=i%></option>
-									<%
-										}
-									%>
+											<%
+												for (int i = 1; i <= 30; i++) {
+											%>
+											<option value="<%=i%>"><%=i%></option>
+											<%
+												}
+											%>
 
-							</select> 일 마다 <select name="interest">
-									<%
-										for (int i = 1; i <= 24; i++) {
-									%>
-									<option value="<%=i%>"><%=i%></option>
-									<%
-										}
-									%>
+									</select> 일 마다 <select name="interest">
+											<%
+												for (int i = 1; i <= 24; i++) {
+											%>
+											<option value="<%=i%>"><%=i%></option>
+											<%
+												}
+											%>
 
-							</select> 시에</td>
-									<td colspan=3> 
-									<select name="interest">
-									<%
-										for (int i = 2018; i <= 2028; i++) {
-									%>
-									<option value="<%=i%>"><%=i%></option>
-									<%
-										}
-									%>
+									</select> 시에</td>
+									<td colspan=3><select name="interest">
+											<%
+												for (int i = 2018; i <= 2028; i++) {
+											%>
+											<option value="<%=i%>"><%=i%></option>
+											<%
+												}
+											%>
 
-							</select> 년  <select name="interest">
-									<%
-										for (int i = 1; i <= 12; i++) {
-									%>
-									<option value="<%=i%>"><%=i%></option>
-									<%
-										}
-									%>
+									</select> 년 <select name="interest">
+											<%
+												for (int i = 1; i <= 12; i++) {
+											%>
+											<option value="<%=i%>"><%=i%></option>
+											<%
+												}
+											%>
 
-							</select> 월
-							<select name="interest">
-									<%
-										for (int i = 1; i <= 31; i++) {
-									%>
-									<option value="<%=i%>"><%=i%></option>
-									<%
-										}
-									%>
+									</select> 월 <select name="interest">
+											<%
+												for (int i = 1; i <= 31; i++) {
+											%>
+											<option value="<%=i%>"><%=i%></option>
+											<%
+												}
+											%>
 
-							</select> 일
-									</td>
+									</select> 일</td>
 								</tr>
 							</table>
 
@@ -248,8 +245,19 @@ h1 {
 			</div>
 			<br>
 			<div class="container" style="text-align: center;">
-				<button class="btn btn-info">수집하기</button>
+				<button class="btn btn-info" id="btck" onclick="start()">수집하기</button>
 			</div>
+			<script>
+			function start() {
+				var result = confirm("수집이 정상적으로 처리되었습니다. \n확인을 클릭하면 스케줄러 목록을 확인할 수 있습니다.");
+				if(result){
+					location.href="02_S_List.jsp" 
+				}else{
+					
+				}
+
+			}
+	</script>
 			<br>
 			<!-- /.container-fluid-->
 			<!-- /.content-wrapper-->

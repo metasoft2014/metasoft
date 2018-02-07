@@ -84,32 +84,66 @@
             <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
               <thead>
                 <tr>
-                  <th>사용</th>
+                  <th>현재상태</th>
                   <th>즐겨찾기</th>
-                  <th>이름</th>
+                  <th>스케줄러 이름</th>
+                  <th>스케줄러 설명</th>
+                  <th>실행주기</th>
                   <th>생성날짜</th>
                   <th>수정날짜</th>
-                  <th>갱신주기</th>
+                  <th>종료날짜</th>
+                  <th>수정</th>
                 </tr>
               </thead>
               <tfoot>
                 <tr>
-                   <th>사용</th>
+                  <th>현재상태</th>
                   <th>즐겨찾기</th>
-                  <th>이름</th>
+                  <th>스케줄러 이름</th>
+                  <th>스케줄러 설명</th>
+                  <th>실행주기</th>
                   <th>생성날짜</th>
                   <th>수정날짜</th>
-                  <th>갱신주기</th>
+                  <th>종료날짜</th>
+                  <th>수정</th>
                 </tr>
               </tfoot>
               <tbody>
                 <tr>
-                  <td><input type="checkbox" name="chk_info1" value="HTML"></td>
-                  <td><input type="checkbox" name="chk_info2" value="HTML"></td>
-                  <td>이름</td>
-                  <td>2011/04/25</td>
-                  <td>2011/04/25</td>
-                  <td>2011/04/25</td>
+                  <td><select name="interest">
+											<option value="실행중">실행중</option>
+											<option value="실행중">대기중</option>
+											<option value="실행중">종료</option>
+									</select></td>
+                  <td><button class="btn btn-info" id="btck">별</button></td>
+                  <td>???</td>
+                  <td>???</td>
+                  <td><select name="interest">
+											<%
+												for (int i = 1; i <= 31; i++) {
+											%>
+											<option value="<%=i%>"><%=i%></option>
+											<%
+												}
+											%>
+
+									</select>일 마다 
+									<select name="interest">
+											<%
+												for (int i = 1; i <= 24; i++) {
+											%>
+											<option value="<%=i%>"><%=i%></option>
+											<%
+												}
+											%>
+
+									</select>시 
+									<br>(다음 실행 : 2018/05/09)</td>
+                  <td>2018/04/25</td>
+                  <td>2018/05/24</td>
+                  <td>2018/12/25</td>
+                  <td><button class="btn btn-info" id="btck">수정</button></td>
+                  
                 </tr>
                 
               </tbody>
