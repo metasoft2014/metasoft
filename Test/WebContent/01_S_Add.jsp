@@ -182,14 +182,13 @@ h1 {
 								</tr>
 								<tr>
 									<th>스케줄러 반복 설정</th>
-									<th>스케줄러 실행 주기</th>
-									<th colspan=3>스케줄러 실행 기간</th>
+									<th colspan=4>스케줄러 실행 주기</th>
 								</tr>
 								<tr>
 									<td>주기 <input type="radio" name="optionsRadios1" /> 기간 <input
 										type="radio" name="optionsRadios2" />
 									</td>
-									<td><select name="interest">
+									<td colspan=4><select name="interest">
 											<%
 												for (int i = 1; i <= 30; i++) {
 											%>
@@ -208,35 +207,6 @@ h1 {
 											%>
 
 									</select> 시에</td>
-									<td colspan=3><select name="interest">
-											<%
-												for (int i = 2018; i <= 2028; i++) {
-											%>
-											<option value="<%=i%>"><%=i%></option>
-											<%
-												}
-											%>
-
-									</select> 년 <select name="interest">
-											<%
-												for (int i = 1; i <= 12; i++) {
-											%>
-											<option value="<%=i%>"><%=i%></option>
-											<%
-												}
-											%>
-
-									</select> 월 <select name="interest">
-											<%
-												for (int i = 1; i <= 31; i++) {
-											%>
-											<option value="<%=i%>"><%=i%></option>
-											<%
-												}
-											%>
-
-									</select> 일</td>
-								</tr>
 							</table>
 
 						</div>
